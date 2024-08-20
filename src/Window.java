@@ -10,7 +10,7 @@ public class Window extends JFrame implements ActionListener {;
                     generatedButtonPanel, passwordPanel;
     public Window (){
         setSize(1100, 600);
-        setMinimumSize(new Dimension(1100, 600));
+        setMinimumSize(new Dimension(1100, 700));
         setResizable(false);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
